@@ -7,7 +7,7 @@ sqlite_query = '''CREATE TABLE if not exists Hospital(
                   Patient_address TEXT NOT NULL,
                   Patient_phone INTEGER NOT NULL UNIQUE )'''
 cur.execute(sqlite_query)
-check=1
+check = 1
 while check:
     c = int(input(
      " Main Menu\n1) Add Patient\n2) View all Records  \n3) Exit\n"))
